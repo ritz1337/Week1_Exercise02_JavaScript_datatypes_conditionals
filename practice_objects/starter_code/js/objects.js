@@ -210,12 +210,12 @@ console.log('me object after step 9:', me)
 
 // Add 'sitting' to the things you're good at and remove everything else from the list.
 
-me.good.push('sitting');
+// me.good.push('sitting');
 
-
+me.good.splice(0, 2, 'sitting');
 
 // uncomment this console.log after you write your code
-//console.log('me object after step 10:', me)
+console.log('me object after step 10:', me)
 
 //////////////////////////////
 //          STEP 11         //
@@ -223,13 +223,13 @@ me.good.push('sitting');
 
 // Add 5 more things to the list of things you're bad at.
 
-
+me.bad.push('drinking', 'exercising', 'rappelling', 'marathons', 'archery');
 
 
 
 
 // uncomment this console.log after you write your code
-// console.log('me object after step 11:', me)
+console.log('me object after step 11:', me)
 
 //////////////////////////////
 //           BONUS          //
